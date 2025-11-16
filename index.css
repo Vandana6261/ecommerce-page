@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
 }
 .container {
   max-width: 1200px;
@@ -67,7 +67,7 @@ nav a {
 }
 
 main {
-  background-color: gray;
+  /* background-color: gray; */
   max-width: 1200px;
   margin: auto;
   padding: 0px 25px;
@@ -108,7 +108,7 @@ main {
 .latestProduct > h2::after {
   content: "";
   position: absolute;
-  background-color: red;
+  /* background-color: red; */
   left: 50%;
   bottom: -8px;
   transform: translateX(-50%);
@@ -242,7 +242,7 @@ small {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 80px;
-  background-color: red;
+  /* background-color: red; */
 }
 .smallContainer {
   display: flex;
@@ -277,23 +277,17 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   color: white;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .appLink {
-  /* flex: 30%; */
-  /* border: 1px solid black; */
   padding: 20px;
 }
 .otherLink {
-  /* flex: 1; */
-  /* border: 1px solid black; */
   width: 30%;
   padding: 20px;
 }
 .socialLink {
-  /* flex: 1; */
-  /* border: 1px solid black; */
   padding: 20px;
 }
 h4 {
@@ -327,7 +321,7 @@ li:hover {
   }
   main {
     min-width: 100vw;
-    background: blue;
+    /* background: blue; */
     margin: 0px;
     padding: 0;
   }
@@ -380,7 +374,7 @@ li:hover {
   .watchContainer {
     width: 100%;
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
