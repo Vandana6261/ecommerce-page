@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <input type="checkbox" id="menu-toggle">
+          <nav>
+            <a href="">Home</a>
+            <a href="./product.html">Products</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Account</a> 
+          </nav>
+
+          <a href="./cart.html"
+            ><img
+              src="https://capable-salamander-62e3f6.netlify.app/images/cart.png"
+              alt="cart img"
+              width="30"
+              height="30"
+          /></a>
+          <label id="menu" for="menu-toggle">
+            <img src="https://capable-salamander-62e3f6.netlify.app/images/menu.png" height="30" width="30">
+          </lable>
+
+          
+        </div>
+
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="small-container">
+
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th class="rightAlign">Quantity</th>
+              <th class="rightAlign">Subtotal</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td class="img-col">
+                <div class="imgDiv">
+                  <div class="image">
+                    <img src="https://capable-salamander-62e3f6.netlify.app/images/buy-1.jpg" alt="img1"  />
+                  </div>
+                  <div class="imgDetail">
+                    <p class="imgText">Red Printed T-Shirt</p>
+                    <p>Price: ₹50.00</p>
+                    <p>Remove</p>
+                  </div>
+                </div>
+              </td>
+              <td class="rightAlign"><input type="number" value="1" /></td>
+              <td class="rightAlign">₹50.00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="imgDiv">
+                  <div class="image">
+                    <img src="https://capable-salamander-62e3f6.netlify.app/images/buy-2.jpg" alt="img2" />
+                  </div>
+                  <div class="imgDetail">
+                    <p class="imgText">Red Printed T-Shirt</p>
+                    <p>Price: ₹50.00</p>
+                    <p>Remove</p>
+                  </div>
+                </div>
+              </td>
+              <td class="rightAlign"><input type="number" value="1" /></td>
+              <td class="rightAlign">₹50.00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="imgDiv">
+                  <div class="image">
+                    <img src="https://capable-salamander-62e3f6.netlify.app/images/buy-3.jpg" alt="img3" />
+                  </div>
+                  <div class="imgDetail">
+                    <p class="imgText">Red Printed T-Shirt</p>
+                    <p>Price: ₹50.00</p>
+                    <p>Remove</p>
+                  </div>
+                </div>
+              </td>
+              <td class="rightAlign"><input type="number" value="1" /></td>
+              <td class="rightAlign">₹50.00</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>₹200.00</td>
+            </tr>
+            <tr>
+              <td>Tax</td>
+              <td>₹35.00</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>₹235.00</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="total-price">
+          <a href="#" class="btn">Proceed to checkout →</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="fContainer"> 
+        <div class="appLink col">
+          <h4>Download Our App</h4>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img
+              src="https://capable-salamander-62e3f6.netlify.app/images/play-store.png"
+              alt="play-store img"
+            />
+            <img
+              src="https://capable-salamander-62e3f6.netlify.app/images/app-store.png"
+              alt="ios-store img"
+            />
+          </div>
+        </div>
+        <div class="otherLink col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="socialLink col">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+    </footer> 
+  </body>
+</html>
