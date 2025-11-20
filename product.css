@@ -6,7 +6,7 @@
 }
 
 .header {
-  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .container {
   max-width: 1200px;
@@ -41,12 +41,10 @@ nav a {
   max-width: 1200px;
   min-height: 100vh;
   margin: auto;
-  /* background-color: red; */
   padding: 10px;
 }
 .small-container {
   margin: 80px 10px 30px;
-  /* background-color: blue; */
 }
 .heading {
   margin: auto;
@@ -54,7 +52,6 @@ nav a {
   justify-content: space-between;
   gap: 40px;
   padding: 10px 60px;
-  /* background-color: green; */
 }
 h2 {
 }
@@ -62,13 +59,11 @@ select {
   border: 1px solid red;
 }
 .picture {
-  /* background-color: rebeccapurple; */
   margin: auto;
   margin-top: 80px;
   margin-bottom: 40px;
   width: 80%;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 30px;
 }
@@ -90,11 +85,8 @@ select {
 }
 
 .page-btn {
-  /* background-color: red; */
   margin: 0px auto 60px;
-  /* margin: auto; */
   width: 90%;
-  /* padding: 10px; */
 }
 span {
   display: inline-block;
@@ -126,7 +118,6 @@ footer {
   align-items: center;
   color: white;
   flex-wrap: wrap;
-  /* background-color: red; */
 }
 
 .appLink {
@@ -198,7 +189,6 @@ li:hover {
   footer {
     width: 100%;
     padding: 5px;
-    /* background-color: red; */
   }
   .fContainer {
     flex-direction: column;
@@ -214,7 +204,6 @@ li:hover {
   }
 
   select {
-    /* background-color: red; */
     font-size: 0.7rem;
   }
 }
