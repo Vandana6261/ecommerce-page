@@ -4,11 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
-  /* width: 1300px; */
-  /* background-color: aqua; */
-  /* margin: auto; */
-}
+
 
 .header {
   /* background-color: rgba(255, 255, 255, 0.2); */
@@ -79,14 +75,14 @@ main {
   margin-bottom: 40px;
   width: 80%;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .imageDiv {
   min-width: 250px;
-  flex-basis: 25%;
+  flex-basis: 20%;
 }
 .imageDiv > img {
   width: 100%;
@@ -194,23 +190,26 @@ small {
 
 .testimonial {
   max-width: 1200px;
-  width: 80%;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
-  height: 50vh;
+  padding: 0px;
+
+  margin: 30px auto 80px;
 }
 .cardBox {
+    width: 90%;
+    margin: auto;
   padding: 10px;
   display: flex;
+  /* flex: auto; */
+  min-height: fit-content;
   justify-content: space-around;
   align-self: center;
   /* background: blue; */
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .card {
-  flex: 30%;
+  flex-basis : 250px;
   /* display: flex; */
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -238,7 +237,8 @@ small {
 
 .brands {
   max-width: 1200px;
-  width: 80%;
+
+  /* margin-top: 70px; */
   margin: auto;
   margin-top: 30px;
   margin-bottom: 80px;
@@ -246,7 +246,11 @@ small {
 }
 .smallContainer {
   display: flex;
-  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
   gap: 10px;
 }
 .brandImg1,
@@ -256,6 +260,7 @@ small {
 .brandImg5 {
   /* flex: 1; */
   flex-basis: 150px;
+
 }
 .smallContainer img {
   width: 100%;
@@ -314,22 +319,50 @@ li:hover {
 
 @media screen and (max-width: 800px) {
   body {
-    max-width: 100vw;
+    min-width: 100vw;
   }
   .container {
-    max-width: 100vw;
+    max-width: 100%;
+    padding: 10px;
+    
+    .headerContent {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      /* background-color: blue; */
+      
+      .left {
+        text-align: center;
+      }
+      .right {
+        /* background-color: red; */
+        width: 100%;
+      }
+    }
   }
   main {
     min-width: 100vw;
     /* background: blue; */
     margin: 0px;
-    padding: 0;
+    padding: 0px;
+
+    .watchContainer {
+      flex-direction: column;
+      align-items: center;
+
+      .watchText {
+        text-align: center;
+      }
+    }
   }
   #menu {
     display: block;
   }
   #menu-toggle:checked ~ nav {
-    max-height: 30vw;
+    max-height: 30vh;
     opacity: 1;
     transform: translateY(0);
   }
@@ -337,6 +370,7 @@ li:hover {
     position: absolute;
     top: 80px;
     width: 100%;
+    margin: auto;
     background-color: rgba(111, 153, 161, 0.616);
     display: flex;
     flex-direction: column;
@@ -351,13 +385,16 @@ li:hover {
       margin: 5px;
     }
   }
+  .brands {
+    height: auto;
+  }
    footer {
       width: 100%;
       padding: 5px;
         /* background-color: red; */
         
     }
-    .fContainer {
+    .fContainer { 
       flex-direction: column;
     }
 
@@ -372,7 +409,7 @@ li:hover {
 
 @media screen and (max-width: 650px) {
   .watchContainer {
-    width: 100%;
+    width: 90%;
     margin: auto;
     /* background-color: red; */
     flex-direction: column;
