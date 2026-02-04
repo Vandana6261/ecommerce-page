@@ -1,6 +1,6 @@
 # 🛍️ Ecommerce Page
 
-A modern **eCommerce demo/webpage** showcasing products like sports shoes and smart devices with user‑friendly sections for featured and latest products, ratings, and promotional content. The design blends visuals with product info to create an engaging shopping experience. :contentReference[oaicite:1]{index=1}
+A modern **eCommerce demo/webpage** showcasing products like sports shoes and smart devices with user‑friendly sections for featured and latest products, ratings, and promotional content. The design blends visuals with product info to create an engaging shopping experience.
 
 ## 📑 Table of Contents
 
